@@ -47,7 +47,7 @@ table {
 /* General */
 body {
 	background-color: #eaeaea;
-	font-family: 'Helvetica Neue', sans-serif;
+	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-size: 1.1em;
 	text-align: center;
 	color: #444;
@@ -58,7 +58,7 @@ header {
 }
 h1 {
 	font-size: 2.6em;
-	font-weight: bold;
+	font-weight: 700;
 	margin: 0.5em;
 }
 h2 {
@@ -69,6 +69,7 @@ h2 {
 	margin: 3em auto;
 }
 .topic-search .search-field {
+	font-family: 'Open Sans';
 	font-size: 1.3em;
 	height: 1.9em;
 	border-radius: 2px;
@@ -78,7 +79,8 @@ h2 {
 	margin-right: 0.2em;
 }
 .topic-search .submit {
-	background-color: CornflowerBlue;
+	background-color: #518bc9;
+	font-family: 'Open Sans';
 	height: 2em;
 	padding: 0 1.2em;
 	color: white;
@@ -96,7 +98,8 @@ h2 {
 	overflow-x: scroll;
 }
 .random {
-	background-color: CornflowerBlue;
+	background-color: #518bc9;
+	font-family: 'Open Sans';
 	height: 2em;
 	line-height: 1.6em;
 	padding: 0 1em;
@@ -173,7 +176,7 @@ h3 {
 	margin: 0.35em;
 }
 .api a {
-	color: cornflowerblue;
+	color: #8ed26f;
 }
 
 
@@ -186,7 +189,7 @@ footer p {
 }
 footer a {
 	text-decoration: none;
-	color: CornflowerBlue;
+	color: #518bc9;
 	border-bottom: 1px dotted;
 }
 .social li {
