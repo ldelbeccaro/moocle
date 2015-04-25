@@ -210,3 +210,52 @@ footer a {
 .social span {
 	display:none;
 }
+
+
+@media (max-width: 900px) {
+	.apis {
+		height: inherit;
+	}
+	.api {
+		position: relative;
+		width: 90%;
+		display: block;
+		top: none;
+		max-height: 100%;
+		margin: 0 auto;
+	}
+	.api ul {
+		max-width: 14em;
+		margin: 0 auto;
+	}
+	.one,
+	.two,
+	.three {
+		left: 0;
+	}
+	.line1, 
+	.line2 {
+		display: none;
+/*		width: 80%;
+		margin: 0 auto;
+		height: 1px;
+		top: 0;
+		left: 10%;
+*/	}
+}
+
+@media (max-width: 600px) {
+	.topic-search .search-field {
+		margin-right: 0;
+	}
+	.submit {
+		margin-top: 1em;
+	}
+}
+
+@media (max-width: 460px) {
+	.topic-search .search-field {
+		width: 90%;
+		padding-right: 0.3em;
+	}
+}
